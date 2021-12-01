@@ -1,0 +1,215 @@
+{
+    "timestamp": "2021-08-26 21:49:26.785",
+    "status": 200,
+    "message": "OK",
+    "data": [
+        {
+            "id": "61286ed6ce2aa50a4b0b9878",
+            "info": {
+                "title": "Main Menu",
+                "text": "Dear customer, thank you for reaching out to us. We will try our best to respond to your enquiry via Messenger chat as soon as possible. Should require immediate attention kindly select from the following options:",
+                "type": "MENU_MESSAGE"
+            },
+            "mxGraphId": "5",
+            "validation": null,
+            "conditions": null,
+            "actions": null,
+            "options": [
+                {
+                    "mxGraphId": "9",
+                    "text": "About BustaRhymes",
+                    "step": {
+                        "targetType": null,
+                        "targetId": "31",
+                        "targetMxGraphId": "31",
+                        "connectionStart": null
+                    },
+                    "value": "1"
+                },
+                {
+                    "mxGraphId": "11",
+                    "text": "Order Now",
+                    "step": {
+                        "targetType": null,
+                        "targetId": "36",
+                        "targetMxGraphId": "36",
+                        "connectionStart": null
+                    },
+                    "value": "2"
+                },
+                {
+                    "mxGraphId": "13",
+                    "text": "Contact Us",
+                    "step": {
+                        "targetType": null,
+                        "targetId": "17",
+                        "targetMxGraphId": "17",
+                        "connectionStart": null
+                    },
+                    "value": "3"
+                }
+            ],
+            "handover": null,
+            "step": {
+                "targetType": null,
+                "targetId": "7",
+                "targetMxGraphId": "7",
+                "connectionStart": null
+            },
+            "dataVariable": "uName",
+            "createdDate": null,
+            "lastModifiedDate": null,
+            "flowId": "61273b15eae6700a1fd16f51",
+            "isLastVertex": null
+        },
+        {
+            "id": "61286ed6ce2aa50a4b0b9879",
+            "info": {
+                "title": "Contact Us",
+                "text": "Thank you and please feel free to visit bustarhymes.symplified.store or contact us @ +03431401398 for further details.",
+                "type": "IMMEDIATE_TEXT_MESSAGE"
+            },
+            "mxGraphId": "15",
+            "validation": null,
+            "conditions": null,
+            "actions": null,
+            "options": [],
+            "handover": null,
+            "step": {
+                "targetType": null,
+                "targetId": "21",
+                "targetMxGraphId": "21",
+                "connectionStart": null
+            },
+            "dataVariable": "",
+            "createdDate": null,
+            "lastModifiedDate": null,
+            "flowId": "61273b15eae6700a1fd16f51",
+            "isLastVertex": null
+        },
+        {
+            "id": "61286ed6ce2aa50a4b0b987a",
+            "info": {
+                "title": "Please wait while we attend to you",
+                "text": "Your chat is being redirected to our agent",
+                "type": "HANDOVER"
+            },
+            "mxGraphId": "19",
+            "validation": null,
+            "conditions": null,
+            "actions": null,
+            "options": [],
+            "handover": null,
+            "step": null,
+            "dataVariable": "",
+            "createdDate": null,
+            "lastModifiedDate": null,
+            "flowId": "61273b15eae6700a1fd16f51",
+            "isLastVertex": null
+        },
+        {
+            "id": "61286ed6ce2aa50a4b0b987b",
+            "info": {
+                "title": "About Us",
+                "text": "Please visit us @ bustarhymes.symplified.store",
+                "type": "IMMEDIATE_TEXT_MESSAGE"
+            },
+            "mxGraphId": "29",
+            "validation": null,
+            "conditions": null,
+            "actions": null,
+            "options": [],
+            "handover": null,
+            "step": null,
+            "dataVariable": "",
+            "createdDate": null,
+            "lastModifiedDate": null,
+            "flowId": "61273b15eae6700a1fd16f51",
+            "isLastVertex": null
+        },
+        {
+            "id": "61286ed6ce2aa50a4b0b987c",
+            "info": {
+                "title": "Our store",
+                "text": "Follow below link to continue. https://bustarhymes.symplified.store",
+                "type": "IMMEDIATE_TEXT_MESSAGE"
+            },
+            "mxGraphId": "34",
+            "validation": null,
+            "conditions": null,
+            "actions": null,
+            "options": [],
+            "handover": null,
+            "step": null,
+            "dataVariable": "",
+            "createdDate": null,
+            "lastModifiedDate": null,
+            "flowId": "61273b15eae6700a1fd16f51",
+            "isLastVertex": null
+        },
+        {
+            "id": "61286ed6ce2aa50a4b0b987d",
+            "info": {
+                "title": "test action",
+                "text": " Click to add an action ",
+                "type": "ACTION"
+            },
+            "mxGraphId": "42",
+            "validation": null,
+            "conditions": null,
+            "actions": [
+                {
+                    "type": "EXTERNAL_REQUEST",
+                    "externalRequest": {
+                        "url": "google.com",
+                        "httpMethod": "GET",
+                        "headers": [
+                            {
+                                "name": "url",
+                                "value": "google.com"
+                            },
+                            {
+                                "name": "",
+                                "value": ""
+                            }
+                        ],
+                        "body": {
+                            "format": null,
+                            "payload": ""
+                        },
+                        "response": {
+                            "format": null,
+                            "mapping": [
+                                {
+                                    "dataVariable": "",
+                                    "path": "",
+                                    "optional": false
+                                }
+                            ]
+                        },
+                        "errorStep": {
+                            "targetType": null,
+                            "targetId": "21",
+                            "targetMxGraphId": "21",
+                            "connectionStart": null
+                        }
+                    }
+                }
+            ],
+            "options": [],
+            "handover": null,
+            "step": {
+                "targetType": null,
+                "targetId": "21",
+                "targetMxGraphId": "21",
+                "connectionStart": null
+            },
+            "dataVariable": "",
+            "createdDate": null,
+            "lastModifiedDate": null,
+            "flowId": "61273b15eae6700a1fd16f51",
+            "isLastVertex": null
+        }
+    ],
+    "path": "/mxgraph/61273b15eae6700a1fd16f51"
+}
